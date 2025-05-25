@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  },
+  "name": "atividade-3-ppi",
+  "version": "1.0.0",
+  "description": "Atividade 3 PII",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamOtsuka/Atividade-3-PPI-2025.git"
+  },
+  "author": "William Otsuka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamOtsuka/Atividade-3-PPI-2025/issues"
+  },
+  "homepage": "https://github.com/WilliamOtsuka/Atividade-3-PPI-2025#readme"
+}

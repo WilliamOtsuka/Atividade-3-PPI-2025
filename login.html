@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>EGAC</h1>
+        <p>Empresa de Gestão Agrícola e Comércio</p>
+    </header>
+
+    <nav>
+        <button class="menu-item" onclick="location.href='/'">Home</button>
+        <button class="menu-item" onclick="location.href='/cadastro-cliente'">Cadastro de Cliente</button>
+        <button class="menu-item" onclick="location.href='/cadastro-fornecedor'">Cadastro de Fornecedor</button>
+        <button class="menu-item" onclick="location.href='/login'">Login</button>
+    </nav>
+
+    <div class="container-cadastro">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <label for="usuario" class="label-cadastro">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" class="input-cadastro" required>
+            <br><br>
+            <label for="senha" class="label-cadastro">Senha:</label>
+            <input type="password" id="senha" name="senha" class="input-cadastro" required>
+            <br><br>
+            <button id="btn-login" type="submit" class="botao-cadastro">Entrar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EGAC - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
